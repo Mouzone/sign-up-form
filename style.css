@@ -4,6 +4,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     font-family: sans-serif;
     display: flex;
@@ -11,11 +12,6 @@ body {
     width: 100vw;
     padding: 0;
     margin: 0;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
 }
 
 div.images {
@@ -40,7 +36,8 @@ div.logo {
     font-family: 'mainFont', sans-serif;
 }
 
-p {
+p.attribution,
+p.company-name{
     color: white;
     align-content: center;
 }
@@ -61,4 +58,33 @@ p.company-name {
 
 a {
     color: white;
+}
+
+div.content{
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div.mission-statement,
+div.sign-up-form,
+div.submit-form {
+    padding: 40px;
+}
+
+div.mission-statement,
+div.submit-form {
+    background-color: whitesmoke;
+    height: 30vh;
+}
+
+div.mission-statement {
+    background-color: whitesmoke;
+}
+
+div.sign-up-form {
+    border-bottom: 3px solid black;
+    height: 40vh;
+
 }
