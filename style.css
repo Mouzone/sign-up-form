@@ -5,6 +5,7 @@
     font-style: normal;
 }
 body {
+    font-family: sans-serif;
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -19,7 +20,7 @@ body {
 
 div.images {
     background-image: url("images/background-img.jpeg");
-    width: 25vw;
+    width: 50vw;
     text-align: center;
 }
 
@@ -49,11 +50,15 @@ p.attribution {
     text-align: center;
     position: absolute;
     bottom: 0;
+    font-size: 10px;
 }
 
 p.company-name {
     font-size: 100px;
     padding: 0;
-    margin: 0;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
+}
+
+a {
+    color: white;
 }
