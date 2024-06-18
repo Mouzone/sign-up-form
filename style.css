@@ -16,6 +16,8 @@ body {
 
 div.images {
     background-image: url("images/background-img.jpeg");
+    background-size: cover;
+    background-position: center center;
     width: 50vw;
     text-align: center;
 }
@@ -50,8 +52,9 @@ p.attribution {
     width: inherit;
     text-align: center;
     position: absolute;
-    bottom: 0;
-    font-size: 10px;
+    bottom: 9px;
+    font-size: 13px;
+    opacity: .7;
 }
 
 p.company-name {
@@ -72,8 +75,8 @@ div.content{
 }
 
 div.mission-statement,
-div.sign-up-form,
-div.submit-form {
+div.sign-up-form
+{
     padding: 40px;
 }
 
@@ -81,6 +84,11 @@ div.mission-statement,
 div.submit-form {
     background-color: whitesmoke;
     height: 30vh;
+}
+
+div.submit-form {
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
 div.mission-statement {
@@ -120,6 +128,7 @@ div.sign-up-form {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, .3);
     height: 40vh;
     margin-bottom: 7px;
+    padding-bottom: 10px;
 }
 
 form {
