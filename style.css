@@ -16,7 +16,7 @@ body {
 
 div.images {
     background-image: url("images/background-img.jpeg");
-    width: 45vw;
+    width: 50vw;
     text-align: center;
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 div.content{
-    width: 55vw;
+    width: 50vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -99,17 +99,32 @@ div.mission-statement > p + p {
 div.group {
     display: flex;
     flex-direction: column;
+    margin-right: 70px;
+    margin-bottom: 20px;
 }
+
+label {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 10px;
+}
+
 div.sign-up-form {
-    border-bottom: 3px solid black;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, .3);
     height: 40vh;
+    margin-bottom: 7px;
 }
 
 form {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
-    padding-right: 15vw;
 }
 
 h1 {
@@ -117,5 +132,18 @@ h1 {
 }
 
 button {
-    background-color: green;
+    background-color: #596D48;
+    height: 40px;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+}
+
+span {
+    color: #596D48;
+    font-weight: bold;
 }

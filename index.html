@@ -29,35 +29,35 @@
       </div>
       <div class="sign-up-form">
         <h1> Let's do this!</h1>
-        <form>
+        <form id="sign-up-form">
           <div class="group">
-            <label for="first-name"> First Name </label>
+            <label for="first-name"> FIRST NAME </label>
             <input type="text" id="first-name" name="first-name">
           </div>
           <div class="group">
-            <label for="last-name"> Last Name </label>
+            <label for="last-name"> LAST NAME </label>
             <input type="text" id="last-name" name="last-name">
           </div>
           <div class="group">
-            <label for="email"> Email </label>
+            <label for="email"> EMAIL </label>
             <input type="email" id="email" name="email">
           </div>
           <div class="group">
-            <label for="phone-number"> Phone Number </label>
-            <input type="tel" id="phone-number" name="phone-number">
+            <label for="phone-number"> PHONE NUMBER </label>
+            <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]*" inputmode="numeric">
           </div>
           <div class="group">
-            <label for="password"> Password </label>
+            <label for="password"> PASSWORD </label>
             <input type="password" id = "password" name="password">
           </div>
           <div class="group">
-            <label for="confirm-password"> Confirm Password </label>
+            <label for="confirm-password"> CONFIRM PASSWORD </label>
             <input type="password" id = "confirm-password" name="confirm-password">
           </div>
         </form>
       </div>
       <div class="submit-form">
-        <button type="submit"> Create Account </button>
+        <button type="submit" form="sign-up-form"> CREATE ACCOUNT </button>
         <p> Already have an account? <span>Log in</span></p>
       </div>
     </div>
